@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="JManteWebPersistencia" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Secuencias</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.TipoVpn</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.TipoBd</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.MantesSemanales</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.UsuarioRueda</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Visualthemes</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Pantallaini</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Tarifapalex</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Clientes</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.TiposParte</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Presupuestos</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Estilocolumna</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.ConexionPcsSeidor</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.PrioridadParte</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Responsabilidad</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.InfoPrograma</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Modis</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Permisoobjetovisual</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Programas</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Macrodetalle</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.ServiciosMante</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.IncidenciaParte</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Partes</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.RegistroRevision</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.UsuarioTarea</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Tarifa</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Visualizaciongrid</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Traduccionobjeto</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.InfoModi</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Favorito</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.EstadosCliente</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Usuario</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Objetovisual</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Registroparte</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Peticiones</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.PcSeidor</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Parametros</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.TiposClienteOld</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.ActividadesMante</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Tarea</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.EmpresaColaboradora</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Proceso</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Modem</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Bonomodis</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.EmpresaProveedor</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.ConexionRemota</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.InfoModiPrograma</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Proveedor</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Cambioprograma</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Ordencomponente</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Vpn</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Macro</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Guardiapalex</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Contactos</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.RuedaPalex</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.ConexionPc</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Componentemenu</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Visuallooks</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Visualcomponent</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.Perfil</class>
+    <class>com.seidor.jmanteweb.persistencia.entidades.InfoBd</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@10.128.55.11:1521:orcl"/>
+      <property name="javax.persistence.jdbc.user" value="mantetest"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="mss"/>
+    </properties>
+  </persistence-unit>
+</persistence>
